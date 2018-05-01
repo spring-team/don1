@@ -27,7 +27,7 @@ class Don1Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        return "Spring Boot REST service running at demo Chatswood - Thu: Served by " + getClass().getName();
+        return "Spring Boot REST service running at demo Chatswood: Served by " + getClass().getName();
     }
 
     @RequestMapping(method = GET, path = "hello/{name}")
